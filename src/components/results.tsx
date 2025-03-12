@@ -1,6 +1,21 @@
+import { useState } from "react";
 import "./results.css";
+import "./Card";
 
 function Results() {
+  const [numImg, setNumImg] = useState(0);
+
+  const handleSliderChange = (onChange) => {
+    setNumImg(parseInt(onChange.target.value, 10));
+  };
+
+  const renderComponents = () => {
+    const components = [];
+    for (let i = 1; i <= numImg; i++) {
+      components.push(<div key={Card}>{i}</div>);
+    }
+  };
+
   return (
     <div className="containerInput">
       <label for="dog-range" className="form-label">
@@ -11,8 +26,11 @@ function Results() {
         className="form-range"
         min="0"
         max="10"
+        value={numImg}
+        onChange={handleSliderChange}
         id="dog-range"
       />
+      {renderComponents()}
     </div>
   );
 }
