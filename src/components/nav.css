@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+@import "bootstrap/dist/css/bootstrap.css";
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 15px 20px 15px;
+  max-width: 100%;
+  padding: 0 40px 0 40px;
+}
+
+.logo__img {
+  max-width: 75px;
+}
+
+.wordmark {
+  font-family: "chewy", serif;
+  font-size: 30px;
+  display: flex;
+  padding: 15px 0 0 10px;
+}
+
+.nav__link--list {
+  display: flex;
+}
+
+.nav__links {
+  padding-top: 43px;
+  max-width: 100%;
+  font-family: "sour gummy", sans-serif;
+}
+
+.nav-link {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.nav-link__primary:hover {
+  color: white;
+  background-color: #e11584;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+}

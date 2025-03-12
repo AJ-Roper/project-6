@@ -1,0 +1,11 @@
+#main__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: "sour gummy", sans-serif;
+}
+
+.copywrite {
+  font-size: 25px;
+}
