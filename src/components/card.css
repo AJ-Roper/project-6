@@ -10,6 +10,9 @@
 }
 
 .random-dog {
+  display: flex;
+  flex-direction: column;
+  max-width: calc(33 / 100);
   width: 300px;
   height: 300px;
 }

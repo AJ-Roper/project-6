@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./results.css";
-import "./Card";
+import Card from "./Card";
 
 function Results() {
   const [numImg, setNumImg] = useState(0);
@@ -14,11 +14,12 @@ function Results() {
     for (let i = 1; i <= numImg; i++) {
       components.push(<div key={Card}>{i}</div>);
     }
+    return components;
   };
 
   return (
     <div className="containerInput">
-      <label for="dog-range" className="form-label">
+      <label htmlFor="dog-range" className="form-label">
         Number of Dogs
       </label>
       <input
