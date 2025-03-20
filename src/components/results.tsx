@@ -18,7 +18,7 @@ function Results() {
   };
 
   return (
-    <div className="containerInput">
+    <div className="element">
       <label htmlFor="dog-range" className="form-label">
         Number of Dogs
       </label>
@@ -26,13 +26,15 @@ function Results() {
         type="range"
         className="form-range"
         min="0"
-        max="10"
+        max="11"
         value={numImg}
         onChange={handleSliderChange}
         id="dog-range"
       />
-      {renderComponents()}
-      <Card />
+      <div className="containerInput">
+        {renderComponents()}
+        <Card />
+      </div>
     </div>
   );
 }

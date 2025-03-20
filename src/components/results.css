@@ -5,11 +5,18 @@
 .containerInput {
   display: flex;
   align-items: center;
-  justify-content: right;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .form-label {
   font-family: "sour gummy", sans-serif;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
