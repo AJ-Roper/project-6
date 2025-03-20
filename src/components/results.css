@@ -4,9 +4,10 @@
 
 .containerInput {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .form-label {
