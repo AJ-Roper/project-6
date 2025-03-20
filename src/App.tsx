@@ -9,7 +9,6 @@ function App() {
       {" "}
       <Nav />
       <Results />
-      <Card />
       <Footer />
     </>
   );

@@ -12,7 +12,7 @@ function Results() {
   const renderComponents = () => {
     const components = [];
     for (let i = 1; i <= numImg; i++) {
-      components.push(<div key={Card}>{i}</div>);
+      components.push(<Card />);
     }
     return components;
   };
@@ -32,6 +32,7 @@ function Results() {
         id="dog-range"
       />
       {renderComponents()}
+      <Card />
     </div>
   );
 }
