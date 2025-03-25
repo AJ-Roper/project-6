@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./card.css";
+import ModalBox from "./modal";
 
 function Card() {
   const [dog, setDog] = useState(null);
