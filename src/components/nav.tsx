@@ -16,7 +16,7 @@ function Nav() {
             <a className="nav-link" href="">
               Find A Pup
             </a>
-            <a className="nav-link nav-link__primary">Contact</a>
+            <a className=" nav-link__primary">Contact</a>
           </ul>
         </div>
       </div>

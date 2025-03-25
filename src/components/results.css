@@ -11,6 +11,12 @@
 
 .form-label {
   font-family: "sour gummy", sans-serif;
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+.form-range {
+  z-index: 2;
 }
 
 .element {
@@ -19,4 +25,49 @@
   justify-content: center;
   align-items: center;
   gap: 12px;
+}
+
+.btn__find-dogs {
+  font-family: "sour gummy", sans-serif;
+  font-size: 30px;
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 15px 8px 15px;
+  background-color: white;
+  z-index: 2;
+}
+
+.btn__find-dogs:hover {
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 15px 8px 15px;
+  color: white;
+  background-color: #e11584;
+}
+
+.findDogBg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(118, 247, 251);
+  padding: 10px;
+}
+
+.findDogHeader {
+  font-family: "chewy", serif;
+  padding-bottom: 20px;
+  z-index: 2;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.dogBannerImg {
+  position: absolute;
+  margin-bottom: 110px;
+  margin-left: 24px;
+  z-index: 0;
+  width: 1300px;
 }

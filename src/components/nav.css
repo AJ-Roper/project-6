@@ -10,9 +10,10 @@
 .nav__container {
   display: flex;
   justify-content: space-between;
-  margin: 20px 15px 20px 15px;
-  max-width: 100%;
-  padding: 0 40px 0 40px;
+  padding: 20px 40px 100px 40px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(118, 247, 251);
 }
 
 .logo__img {
@@ -31,6 +32,7 @@
 }
 
 .nav__links {
+  font-size: 18px;
   padding-top: 43px;
   max-width: 100%;
   font-family: "sour gummy", sans-serif;
@@ -41,10 +43,21 @@
   cursor: pointer;
 }
 
+.nav-link__primary {
+  font-family: "sour gummy", sans-serif;
+  font-size: 20px;
+  margin: 7px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  border-radius: 9999px;
+  padding: 0 15px 0 15px;
+}
+
 .nav-link__primary:hover {
   color: white;
   background-color: #e11584;
   cursor: pointer;
-  border-radius: 5px;
-  padding: 0 5px 0 5px;
+  border-radius: 9999px;
+  padding: 0 15px 0 15px;
 }
