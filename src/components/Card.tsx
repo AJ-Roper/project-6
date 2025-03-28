@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./card.css";
-import ModalBox from "./modal";
+import Modal from "./modal";
 
 function Card() {
   const [dog, setDog] = useState(null);
 
   const [loading, setLoading] = useState(true);
+
+  const [openModal, setOpenModal] = useState(false);
 
   useEffect(() => {
     fetchDog();
@@ -39,9 +41,15 @@ function Card() {
       <p className="card-text">
         Need dog facts to impress your friends? We got that...
       </p>
-      <a href="#" className="dog-btn">
+      <button
+        className="dog-btn"
+        onClick={() => {
+          setOpenModal(true);
+        }}
+      >
         Learn More
-      </a>
+      </button>
+      {openModal && <Modal closeModal={setOpenModal} />}
     </div>
   );
 }
