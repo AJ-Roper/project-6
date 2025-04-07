@@ -18,7 +18,7 @@ function Modal({ closeModal }) {
 
       const { data } = await axios.get("https://dogapi.dog/api/v2/facts");
 
-      setFact(data);
+      setFact(data.data[0].attributes.body);
     } catch (error) {
       console.error("Error fetching Fact:", error);
     } finally {

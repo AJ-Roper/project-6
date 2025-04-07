@@ -8,6 +8,9 @@ function Nav() {
           <img className="logo__img" src="src\assets\paw.png" />
           <span className="wordmark">Furrever</span>
         </div>
+        <button className="hamburgerMenu">
+          <img className="pawIconModal" src="src\assets\pawIcon.png" />
+        </button>
         <div className="nav__links">
           <ul className="nav__link--list">
             <a className="nav-link" href="#">

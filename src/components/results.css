@@ -71,3 +71,20 @@
   z-index: 0;
   width: 1300px;
 }
+
+@media only screen and (max-width: 768px) {
+  .dogBannerImg {
+    width: 870px;
+    margin-bottom: 31px;
+  }
+
+  .containerInput {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .containerInput {
+    grid-template-columns: 1fr;
+  }
+}
