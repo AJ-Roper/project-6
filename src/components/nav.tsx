@@ -9,7 +9,7 @@ function Nav() {
           <span className="wordmark">Furrever</span>
         </div>
         <button className="hamburgerMenu">
-          <img className="pawIconModal" src="src\assets\pawIcon.png" />
+          <img className="pawIconModal" src="src\assets\hamMenu.png" />
         </button>
         <div className="nav__links">
           <ul className="nav__link--list">
