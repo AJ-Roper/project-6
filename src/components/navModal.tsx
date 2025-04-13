@@ -8,9 +8,9 @@ function NavModal({ closeModal }) {
           <button onClick={() => closeModal(false)}> X </button>
         </div>
         <ul>
-          <li>Find a Pup</li>
-          <li>Home</li>
-          <li>Contact</li>
+          <li className="navLinkModal">Find a Pup</li>
+          <li className="navLinkModal">Home</li>
+          <li className="navLinkModal">Contact</li>
         </ul>
       </div>
     </div>

@@ -1,0 +1,13 @@
+.modalContainer {
+  max-width: 200px;
+}
+
+.modalBackground {
+  width: 200px;
+  background-color: white;
+}
+
+.navLinkModal {
+  font-family: "sour gummy", sans-serif;
+  font-size: 20px;
+}
