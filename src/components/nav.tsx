@@ -1,6 +1,9 @@
 import "./nav.css";
+import NavModal from "./navModal";
+import React, { useEffect, useState } from "react";
 
 function Nav() {
+  const [openModal, setOpenModal] = useState(false);
   return (
     <>
       <div className="nav__container">
@@ -8,9 +11,16 @@ function Nav() {
           <img className="logo__img" src="src\assets\paw.png" />
           <span className="wordmark">Furrever</span>
         </div>
-        <button className="hamburgerMenu">
+        <button
+          type="button"
+          className="hamburgerMenu"
+          onClick={() => {
+            setOpenModal(true);
+          }}
+        >
           <img className="pawIconModal" src="src\assets\hamMenu.png" />
         </button>
+        {openModal && <NavModal closeModal={setOpenModal} />}
         <div className="nav__links">
           <ul className="nav__link--list">
             <a className="nav-link" href="#">
