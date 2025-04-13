@@ -22,7 +22,6 @@ function Results() {
       <div className="findDogBg">
         <h1 className="findDogHeader"> Browse Dogs on the Internet</h1>
         <button className="btn__find-dogs">Find Dogs</button>
-        <img className="dogBannerImg" src="src\assets\dogsInALine.png" />
       </div>
       <label htmlFor="dog-range" className="form-label">
         Number of Dogs

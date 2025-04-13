@@ -6,6 +6,7 @@ function Nav() {
   const [openModal, setOpenModal] = useState(false);
   return (
     <>
+    <div className="navBackground">
       <div className="nav__container">
         <div className="logo">
           <img className="logo__img" src="src\assets\paw.png" />
@@ -32,6 +33,7 @@ function Nav() {
             <a className=" nav-link__primary">Contact</a>
           </ul>
         </div>
+      </div>
       </div>
     </>
   );

@@ -7,7 +7,7 @@ function NavModal({ closeModal }) {
         <div className="titleCloseBtn">
           <button onClick={() => closeModal(false)}> X </button>
         </div>
-        <ul>
+        <ul className="navModalList">
           <li className="navLinkModal">Find a Pup</li>
           <li className="navLinkModal">Home</li>
           <li className="navLinkModal">Contact</li>

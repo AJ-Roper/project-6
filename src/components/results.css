@@ -54,6 +54,7 @@
   height: 100%;
   background-color: rgb(118, 247, 251);
   padding: 10px;
+  z-index: -2;
 }
 
 .findDogHeader {
@@ -64,26 +65,9 @@
   -webkit-text-stroke-color: white;
 }
 
-.dogBannerImg {
-  position: absolute;
-  margin-bottom: 110px;
-  margin-left: 24px;
-  z-index: 0;
-  width: 1300px;
-}
-
 @media only screen and (max-width: 768px) {
-  .dogBannerImg {
-    width: 870px;
-    margin-bottom: 31px;
-  }
-
   .containerInput {
     grid-template-columns: 1fr;
-  }
-
-  .findDogBg {
-    width: 768px;
   }
 }
 
