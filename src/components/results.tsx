@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./results.css";
 import Card from "./Card";
+import SearchBar from "./searchBar";
 
 function Results() {
   const [numImg, setNumImg] = useState(0);
@@ -21,7 +22,7 @@ function Results() {
     <div className="element">
       <div className="findDogBg">
         <h1 className="findDogHeader"> Browse Dogs on the Internet</h1>
-        <button className="btn__find-dogs">Find Dogs</button>
+        <SearchBar />
       </div>
       <label htmlFor="dog-range" className="form-label">
         Number of Dogs

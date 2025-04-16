@@ -3,16 +3,16 @@
   height: 100%;
   position: absolute;
   z-index: 100;
+  margin-left: -650px;
 }
 
 .modalContainer {
-  width: 460px;
-  height: 409px;
+  width: 288.4px;
+  height: 385px;
   border-radius: 12px;
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding: 25px;
 }
 
 .modalContainer .title {
@@ -69,14 +69,15 @@
 
 @media only screen and (max-width: 768px) {
   .modalContainer {
-    width: 380px;
-    height: 433px;
+    width: 280px;
+    height: 383px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .modalContainer {
-    width: 415px;
-    height: 420px;
+    width: 285px;
+    height: 380px;
+    margin-left: 330px;
   }
 }
